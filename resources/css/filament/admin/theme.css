@@ -1,0 +1,47 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@source '../../../../app/Filament/**/*';
+@source '../../../../resources/views/filament/**/*';
+
+@font-face {
+    font-family: 'Kalpurush';
+    src: url('/fonts/Kalpurush.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+html,
+body {
+    font-family: 'Kalpurush', sans-serif !important;
+}
+
+.fi {
+    /* XS */
+    --text-xs: 0.9429rem;
+    --text-xs--line-height: calc(1 / 0.75);
+
+    /* SM */
+    --text-sm: 1.1rem;
+    --text-sm--line-height: calc(1.25 / 0.875);
+
+    /* BASE */
+    --text-base: 1.2571rem;
+    --text-base--line-height: calc(1.5 / 1);
+
+    /* LG */
+    --text-lg: 1.4143rem;
+    --text-lg--line-height: calc(1.75 / 1.125);
+
+    /* XL */
+    --text-xl: 1.5714rem;
+    --text-xl--line-height: calc(1.75 / 1.25);
+
+    /* 2XL */
+    --text-2xl: 1.8857rem;
+    --text-2xl--line-height: calc(2 / 1.5);
+
+    /* 3XL */
+    --text-3xl: 2.3571rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
+}
