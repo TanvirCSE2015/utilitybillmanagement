@@ -45,3 +45,5 @@ body {
     --text-3xl: 2.3571rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
 }
+
+@import '../../filament-custom.css';
